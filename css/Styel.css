@@ -264,7 +264,7 @@ margin: 30px 10px;
     margin-top: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1367px) {
     .hero{
     display: none;
     }
@@ -331,7 +331,7 @@ transition: 1s;
 
 @media (max-width: 768px) { 
     .visa .imge{
-     display: none;
+    display: none;
     }
 }
 
@@ -363,13 +363,19 @@ font-size: 40px;
 padding-left: 30px;
 }
 
+@media (max-width: 1200px) {
+    .about img {
+        width: 70px;
+    }
+}
+
 .about{
     padding-bottom: 100px;
 }
 
 .footer{
     padding: 10px 20px;
-    background-color: #777;
+    background-color: #111;
 }
 
 
@@ -383,8 +389,12 @@ padding-left: 30px;
 
 .footer i{
     font-size: 30px;
-    color: #00a8e8;
+    color: #007ea7;
     padding: 10px;
+}
+
+.footer img{
+    width: 100px;
 }
 
 .footer .pp{
